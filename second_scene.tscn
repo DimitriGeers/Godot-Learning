@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://24hrxu1driux"]
+
+[ext_resource type="Texture2D" uid="uid://i77ske4q84uu" path="res://Frozzy1.png" id="1_6p01h"]
+
+[node name="SecondScene" type="Node2D"]
+
+[node name="Frozzy1" type="Sprite2D" parent="."]
+position = Vector2(596, 355)
+texture = ExtResource("1_6p01h")
