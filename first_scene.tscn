@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://7w6qeecau8n0"]
+
+[ext_resource type="Texture2D" uid="uid://b8y2247rlapck" path="res://icon.svg" id="1_onnnp"]
+[ext_resource type="Texture2D" path="res://Frozzy2.png" id="2_73yaj"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(252, 151)
+texture = ExtResource("1_onnnp")
+
+[node name="Frozzy2" type="Sprite2D" parent="."]
+position = Vector2(851, 380)
+scale = Vector2(2.81156, 3.35455)
+texture = ExtResource("2_73yaj")
